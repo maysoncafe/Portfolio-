@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Moon+Dance&family=Pacifico&family=Righteous&family=Vujahday+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #006d77 16.62%, #83c5be 85.61%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 14px;
+}
+.cabecalho-imagem{
+    height: 90px;
+}
+.nave{
+    display: flex;
+    gap: 32px;
+}
+.cabeçalho-menu-item{
+    font-family:'Sarala', sans-serif;
+    color:#FFF2E7;
+    font-weight: 400px;
+    font-size: 18px;
+}
+.cabeçalho-menu-item:hover {
+    text-decoration: underline;
+}
+
+.conteudo{
+    border-top: 0.4px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+.img-logo {
+    padding: 20px
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.texto-principal {
+    font-family: 'Righteous';
+    color: #FFF2E7;
+    width: 400px;
+    font-size: 64px;
+}
+.conteudo-principal-subtitulo {
+    font-family: 'Sarala', serif;
+    font-weight: 400px;
+    font-size: 24px;
+    color:#ECD6C4;
+}
+.botao {
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 180px;
+    height: 67px;
+    border: none;
+    color: #2F2325;
+    font-family: 'Sarala';
+    font-size: 24px;
+    line-height: 39px;
+
+}
+.botao:hover{
+    background: linear-gradient(68.15deg, #006d77 16.62%, #83c5be 85.61%);
+    background-color:  rgb(39, 92, 85);
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+.titudo-secundario {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFF2E7;
+    margin-bottom: 16px;
+}
+.conteudo-secundario-paragrafo {
+    font-family: Sarala;
+    font-style: normal;
+    font-weight: 300px;
+    font-size:   18px;
+    line-height: 29px;
+    text-align: center;
+    color: #ECD6C4;
+}
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+  
+}
+.rodape-imagem {
+    height: 50px ;
+   display: block;
+   margin: auto;
+}
+
+
+
+
+
+
