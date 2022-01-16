@@ -23,9 +23,14 @@ body{
     align-items: center;
     justify-content: space-around;
     padding: 14px;
-}
-.cabecalho-imagem{
-    height: 90px;
+img-mayson{
+    display: block;
+    width: 72px;
+    height: 74px;
+    background: url(mayson-logo.png) no-repeat;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 }
 .nave{
     display: flex;
